@@ -14,17 +14,24 @@ export async function askQuestion(query) {
   // 1. Check Safety
   const safety = checkSafety(query);
   if (safety.isUnsafe) {
-    const safetyAnswer = `This query involves a health condition or sensitive topic (${safety.reason}). Please consult a qualified doctor or yoga instructor before proceeding.`;
+    // Build safety message with exact wording from assignment
+    const safetyMessage = [
+      "Your question touches on an area that can be risky without personalized guidance.",
+      "",
+      "Instead of headstands, consider gentle supine poses and breathing work.",
+      "",
+      "Please consult a doctor or certified yoga therapist before attempting these poses."
+    ].join("\n");
 
     const log = await QueryLog.create({
       query,
-      answer: safetyAnswer,
+      answer: safetyMessage,
       isUnsafe: true,
       sources: []
     });
 
     return {
-      answer: safetyAnswer,
+      answer: safetyMessage,
       sources: [],
       isUnsafe: true,
       queryLogId: log._id

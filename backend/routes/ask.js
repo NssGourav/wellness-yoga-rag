@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.post("/", async (req, res) => {
   const { query } = req.body;
-  
+
   if (!query) {
     return res.status(400).json({ error: "Query is required" });
   }
