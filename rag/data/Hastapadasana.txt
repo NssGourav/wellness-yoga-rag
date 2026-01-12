@@ -1,8 +1,15 @@
 TITLE: Hastapadasana (Standing Bend)
-This posture is a standing bend where the upper body folds toward the legs.
-It is designed to make the spine more supple and flexible over time.
-The pose provides a deep stretch to all the muscles located along the back.
-It is known for helping to refresh and invigorate the nervous system.
-You should avoid this pose if you have chronic back or neck injuries.
-People currently recovering from leg injuries should also refrain from this bend.
-Source: Summarized from Art of Living (https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday).
+CATEGORY: 
+  - Yoga Asana – Standing Pose – Beginner Level  
+DESCRIPTION: 
+  - A standing bend where the upper body folds toward the legs to make the spine more supple. 
+BENEFITS:
+  - Refreshing and invigorating for the nervous system 
+  - Stretches all the muscles located along the back 
+  - Improves spinal flexibility 
+CONTRAINDICATIONS:
+  - Avoid with chronic back or neck injuries 
+  - Not recommended for those recovering from leg injuries 
+WHO SHOULD PRACTICE: 
+  - Beginners looking for back flexibility. 
+SOURCE: Art of Living – https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday

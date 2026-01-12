@@ -1,8 +1,14 @@
 TITLE: Shavasana (Corpse Pose)
-The corpse pose is a total relaxation position where you lie flat on your back.
-It is used to integrate the benefits of a yoga session and calm the body.
-This pose reduces stress and helps to lower the heart rate naturally.
-It is a vital part of practice for restoring energy and mental clarity.
-Place a small pillow under your knees if you experience lower back discomfort.
-Try to keep the body perfectly still to achieve a deep state of rest.
-Source: Summarized from Art of Living (https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday).
+CATEGORY: 
+  - Yoga Asana – Lying Pose (Back) – Beginner Level  
+DESCRIPTION: 
+  - A total relaxation position where you lie flat and motionless on your back. 
+BENEFITS:
+  - Integrates the benefits of the yoga session.
+  - Reduces stress and lowers the heart rate naturally.
+  - Restores energy and mental clarity. 
+CONTRAINDICATIONS:
+  - Use a pillow under knees for lower back discomfort.
+  - Keep the body still for a deep state of rest. 
+WHO SHOULD PRACTICE: Everyone at the end of a session. 
+SOURCE: Art of Living – https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday

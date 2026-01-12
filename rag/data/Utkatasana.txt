@@ -1,8 +1,13 @@
 TITLE: Utkatasana (Chair Pose)
-The chair pose mimics the action of sitting in a chair with the arms raised.
-It targets and strengthens the muscles in the legs, back, and core.
-This posture helps build a sense of inner willpower and physical balance.
-Keep your weight in your heels to protect your joints while practicing.
-Avoid this pose if you have any recent injuries to the ankles or knees.
-Those with chronic lower back pain should skip this strengthening exercise.
-Source: Summarized from Art of Living (https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday).
+CATEGORY: 
+  - Yoga Asana – Standing Pose – Beginner Level  
+DESCRIPTION: Mimicking the action of sitting in an imaginary chair with the arms raised high. 
+BENEFITS:
+  - Strengthens the legs, back, and core muscles 
+  - Builds inner willpower and physical balance  
+CONTRAINDICATIONS:
+  - Avoid with recent injuries to the ankles or knees 
+  - Skip if you have chronic lower back pain 
+WHO SHOULD PRACTICE: 
+  - Beginners building strength. 
+SOURCE: Art of Living – https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday    

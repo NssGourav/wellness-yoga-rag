@@ -1,8 +1,15 @@
 TITLE: Sukhasana (Easy Pose)
-The easy pose is a simple cross-legged sitting position used for centering and breathing. 
-It helps to strengthen the back and improve overall body posture. 
-This position is widely used as a foundation for seated meditation and relaxation. 
-It encourages a sense of mental calm and reduces physical tiredness. 
-People with recent or chronic knee injuries should sit on a cushion for support. 
-Avoid sitting in this position for long periods if you experience lower back pain.
-Source: Summarized from Art of Living (https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday).
+CATEGORY: 
+  - Yoga Asana – Sitting Pose – Beginner Level  
+DESCRIPTION: 
+  - A simple cross-legged sitting position used for centering and breathing. 
+BENEFITS:
+  - Strengthens the back and improves overall body posture.
+  - Widely used as a foundation for seated meditation and relaxation.
+  - Encourages a sense of mental calm and reduces physical tiredness. 
+CONTRAINDICATIONS:
+  - People with recent or chronic knee injuries should sit on a cushion for support.
+  - Avoid sitting in this position for long periods if you experience lower back pain. 
+WHO SHOULD PRACTICE: 
+  - Beginners and those with knee injuries. 
+SOURCE: Art of Living – https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday

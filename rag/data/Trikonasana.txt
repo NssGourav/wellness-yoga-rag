@@ -1,8 +1,15 @@
 TITLE: Trikonasana (Triangle Pose)
-The triangle pose is created by spreading the legs and reaching one hand toward the ground.
-It is widely practiced to help improve both physical and mental stability.
-This position can help reduce feelings of stress and general anxiety.
-Many find it useful for improving digestion and relieving minor back pain.
-Avoid this pose if you are currently experiencing dizziness or heart problems.
-Individuals with recent injuries to the knees or hips should skip this stretch.
-Source: Summarized from Art of Living (https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday).
+CATEGORY: 
+  - Yoga Asana – Standing Pose – Beginner Level  
+DESCRIPTION: 
+  - Stretching the legs wide and reaching down to create a triangular shape with the body. 
+BENEFITS:
+  - Improves digestion and physical stability 
+  - Reduces stress and mild anxiety 
+  - Helps relieve back pain  
+CONTRAINDICATIONS:
+  - Avoid with recent injuries to the knees or hips 
+  - Not recommended for those with heart problems or dizziness 
+WHO SHOULD PRACTICE: 
+  - People seeking mental and physical balance. 
+SOURCE: Art of Living – https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday

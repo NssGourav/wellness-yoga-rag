@@ -1,8 +1,14 @@
 TITLE: Vrikshasana (Tree Pose)
-The tree pose is a balance where one foot is placed against the opposite inner thigh.
-It is primarily used to develop better stability and mental concentration.
-This posture strengthens the legs and helps open the hip joints.
-It may offer some relief to those dealing with discomfort from sciatica.
-People with vertigo or high blood pressure should avoid this balancing act.
-Those with ankle or hip injuries should not attempt this one legged pose.
-Source: Summarized from Art of Living (https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday).
+CATEGORY:
+  - Yoga Asana – Standing Pose – Beginner Level  
+DESCRIPTION: 
+  - A balance where one foot is placed against the opposite inner thigh with arms overhead. 
+BENEFITS:
+  - Develops better stability and mental focus 
+  - Strengthens legs and opens the hips 
+CONTRAINDICATIONS:
+  - Avoid with high blood pressure or vertigo 
+  - Not for those with ankle or hip injuries 
+WHO SHOULD PRACTICE: 
+  - Beginners wanting to improve focus. 
+SOURCE: Art of Living – https://www.artofliving.org/in-en/yoga/beginners/beginner-yoga-asanas-for-everyday
