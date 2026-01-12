@@ -1,7 +1,15 @@
-require("dotenv").config();
-const fs = require("fs");
-const path = require("path");
-const fetch = require("node-fetch");
+import dotenv from "dotenv";
+import fs from "fs";
+import path from "path";
+import fetch from "node-fetch";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+dotenv.config();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
 const chunksPath = path.join(__dirname, "../chunks.json");
 const outputPath = path.join(__dirname, "../embeddings.json");
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -11,23 +19,26 @@ async function embedChunks() {
   const embedded = [];
 
   for (const chunk of chunks) {
-    const response = await fetch("https://api.generative.ai/v1/embeddings", {
-      method: "POST",
-      headers: {
-        "Authorization": `Bearer ${GEMINI_API_KEY}`,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        model: "gemini-text-embedding-3-small",
-        input: chunk.text
-      })
-    });
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent?key=${GEMINI_API_KEY}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          content: {
+            parts: [{ text: chunk.text }]
+          }
+        })
+      }
+    );
 
     const data = await response.json();
 
     embedded.push({
       text: chunk.text,
-      embedding: data.data[0].embedding,
+      embedding: data.embedding.values,
       source: chunk.source
     });
 
