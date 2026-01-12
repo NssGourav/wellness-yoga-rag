@@ -84,6 +84,7 @@ export async function askQuestion(query) {
       queryLogId: log._id
     };
   } catch (error) {
+    console.error("DEBUG ERROR:", error.response?.data || error.message);
     throw new Error("Failed to process your yoga query. Please try again later.");
   }
 }

@@ -1,5 +1,5 @@
+import { connectDB, mongoose } from "../../backend/utils/db.js";
 import { askQuestion } from "../../backend/services/ask.service.js";
-import mongoose from "mongoose";
 import dotenv from "dotenv";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -9,14 +9,11 @@ const __dirname = path.dirname(__filename);
 
 // Load .env from backend folder specifically
 dotenv.config({ path: path.join(__dirname, "../../backend/.env") });
+
 async function testFullFlow() {
   try {
-    const mongoUri = process.env.MONGODB_URI;
-    if (!mongoUri) {
-      throw new Error("MONGODB_URI not found in backend/.env");
-    }
-    console.log("Connecting to MongoDB...");
-    await mongoose.connect(mongoUri);
+    console.log("Connecting to MongoDB via shared utility...");
+    await connectDB();
     console.log("Connected.\n");
 
     const testQueries = [
