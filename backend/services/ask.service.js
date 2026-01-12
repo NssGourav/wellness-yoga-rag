@@ -38,15 +38,25 @@ export async function askQuestion(query) {
     const sources = [...new Set(topChunks.map(c => c.source))];
 
     const prompt = `
-      You are a specialized Yoga Assistant. Use the following context to answer the user's question accurately.
-      If the answer is not in the context, say that you don't have enough information but provide general yoga safety tips.
-      
-      Context:
-      ${context}
-      
-      User Question: ${query}
-      
-      Answer (be helpful, concise, and professional):
+You are a Yoga and Wellness Assistant using Retrieval-Augmented Generation.
+
+Use the provided context to answer the user's question.
+
+Guidelines:
+- Reason semantically, not just by exact keywords
+- Treat synonyms and related concepts as equivalent when meaning matches
+- Combine information from multiple context chunks if needed
+- If information is partially available, summarize what is known and state limitations
+- Do not hallucinate or provide medical diagnoses
+- Respect all safety and contraindication information
+
+Context:
+${context}
+
+User Question:
+${query}
+
+Answer:
     `;
 
     const response = await axios.post(
