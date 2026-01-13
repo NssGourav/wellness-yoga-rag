@@ -14,16 +14,7 @@ export async function askQuestion(query) {
   // 1. Check Safety
   const safety = checkSafety(query);
   if (safety.isUnsafe) {
-    // Build safety message with exact wording from assignment + debug info
-    const safetyMessage = [
-      safety.debugInfo,
-      "",
-      "Your question touches on an area that can be risky without personalized guidance.",
-      "",
-      "Instead of headstands, consider gentle supine poses and breathing work.",
-      "",
-      "Please consult a doctor or certified yoga therapist before attempting these poses."
-    ].join("\n");
+    const safetyMessage = safety.specificWarning;
 
     const log = await QueryLog.create({
       query,
