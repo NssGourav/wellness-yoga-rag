@@ -17,7 +17,7 @@ This application allows users to ask yoga-related questions and receive response
 - Transparent with cited sources
 - Logged for traceability and feedback analysis
 
-A fully tested Android **APK file** is included in the repository for evaluation.
+A fully tested Android **APK file** is included in the repository for evaluation. You can find it at: [mobile/releases/YogaWellness.apk](mobile/releases/YogaWellness.apk)
 
 ---
 
@@ -143,7 +143,8 @@ npm install
   - npx react-native run-android
 
 
-A fully tested .apk file is included in the repository.
+### 📱 Android APK
+A fully tested and ready-to-install `.apk` file is available here: **[Download YogaWellness.apk](mobile/releases/YogaWellness.apk)**
 
  Demo Video Link: [demolink](https://drive.google.com/file/d/1lZbNEI7BnOVbXa9Cz-eLcJXKBhSKgeK9/view?usp=sharing)
 
