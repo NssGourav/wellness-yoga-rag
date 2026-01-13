@@ -145,7 +145,7 @@ npm install
 
 A fully tested .apk file is included in the repository.
 
-📹 Demo Video Link: (Add your link here)
+ Demo Video Link: [demolink](https://drive.google.com/file/d/1lZbNEI7BnOVbXa9Cz-eLcJXKBhSKgeK9/view?usp=sharing)
 
 ## 🤖 AI Tools & Prompts Used
   - Refer [ai.md](ai.md)
