@@ -126,17 +126,16 @@ export default function App() {
 
             {response && (
               <View style={[styles.glassCard, styles.responseCard]}>
-                {response.isUnsafe && (
+                {response.isUnsafe ? (
+                  /* Safety Mode: ONLY show the red warning box */
                   <View style={styles.redWarningBox}>
-                    <Text style={styles.redWarningHeader}>⚠️ Safety Warning</Text>
+                    <Text style={styles.redWarningHeader}>⚠️ Safety Notice</Text>
                     <Text style={styles.redWarningText}>
-                      This question relates to a medical or sensitive topic.{"\n"}
-                      Please consult a certified yoga instructor or healthcare professional before attempting any poses.
+                      {renderFormattedText(response.answer)}
                     </Text>
                   </View>
-                )}
-
-                {(response.answer || (response.sources && response.sources.length > 0)) && (
+                ) : (
+                  /* Normal Mode: Show AI Answer, Sources, and Feedback */
                   <>
                     {response.answer && (
                       <View style={styles.answerSection}>
