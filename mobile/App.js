@@ -92,7 +92,7 @@ export default function App() {
           >
             <View style={styles.header}>
               <Sparkles color="#fff" size={32} />
-              <Text style={styles.title}>Yoga Assistant</Text>
+              <Text style={styles.title}>Wellness RAG</Text>
               <Text style={styles.subtitle}>Ask Me Anything About Yoga</Text>
             </View>
 
