@@ -28,8 +28,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "f8f22fe4-a8b9-476e-8290-354f5d8355b9"
+        "projectId": "e6457239-29f1-47aa-b751-8d249cb7d4a0"
       }
-    }
+    },
+    "owner": "gourav_nss"
   }
 }
