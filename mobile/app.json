@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Wellness RAG Micro-App - Ask Me Anything About Yoga",
-    "slug": "wellness-yoga-assistant",
+    "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
