@@ -14,8 +14,10 @@ export async function askQuestion(query) {
   // 1. Check Safety
   const safety = checkSafety(query);
   if (safety.isUnsafe) {
-    // Build safety message with exact wording from assignment
+    // Build safety message with exact wording from assignment + debug info
     const safetyMessage = [
+      safety.debugInfo,
+      "",
       "Your question touches on an area that can be risky without personalized guidance.",
       "",
       "Instead of headstands, consider gentle supine poses and breathing work.",
