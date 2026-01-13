@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import {StyleSheet,Text,View,TextInput,TouchableOpacity,ScrollView,SafeAreaView,ActivityIndicator,KeyboardAvoidingView,Platform,StatusBar,Linking,} from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView, SafeAreaView, ActivityIndicator, KeyboardAvoidingView, Platform, StatusBar, Linking, } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Search, Send, ShieldAlert, BookOpen, ThumbsUp, ThumbsDown, Sparkles } from 'lucide-react-native';
 
-const BACKEND_URL = 'http://192.168.29.51:5001'; // Update to your local IP for physical device testing
+const BACKEND_URL = __DEV__
+  ? 'http://192.168.29.51:5001'
+  : 'https://wellness-yoga-rag.onrender.com';
 
 const renderFormattedText = (text) => {
   if (!text) return null;
